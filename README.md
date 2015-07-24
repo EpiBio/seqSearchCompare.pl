@@ -1,7 +1,6 @@
 # seqSearchCompare.pl
 
-#This script takes in 1) a FASTA file containing sequences of interest (i.e. promoters: sequences +/-1kb around gene TSS's), and genomic coordinates for features of interest (i.e. a .BED file). It looks for a specific sequence motif in 1) and grabs the Gene accession # and genomic coordinates for each occurrence of the sequence motif. It then finds coordinates from 2) that fall within regions from 1) and records each overlap occurrence as well as the metadata from 2). Finally, it incorporates metadata from a 3rd file that has corresponding gene accession #s (i.e. microarray data for gene expression).
-
+This script takes in 1) a FASTA file containing sequences of interest (i.e. promoters: sequences +/-1kb around gene TSS's), and genomic coordinates for features of interest (i.e. a .BED file). It looks for a specific sequence motif in 1) and grabs the Gene accession # and genomic coordinates for each occurrence of the sequence motif. It then finds coordinates from 2) that fall within regions from 1) and records each overlap occurrence as well as the metadata from 2). Finally, it incorporates metadata from a 3rd file that has corresponding gene accession #s (i.e. microarray data for gene expression).
 
 ######################## seqSearchCompare.pl by Jessilyn Dunn 2015-01-06 ########################
 
